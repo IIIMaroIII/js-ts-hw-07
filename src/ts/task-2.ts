@@ -60,10 +60,3 @@ function createGalleryItems(images: Image[]): HTMLLIElement[] {
 const galleryItems: HTMLLIElement[] = createGalleryItems(images);
 
 refs.list?.append(...galleryItems);
-
-/**
- * {
-    url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
-    alt: "White and Black Long Fur Cat",
-  },
- */
