@@ -3,7 +3,7 @@ interface Refs {
 }
 
 const refs: Refs = {
-  form: document.querySelector<HTMLFormElement>(".login-form")!,
+  form: document.querySelector<HTMLFormElement>(".login-form") ?? null,
 };
 
 refs.form?.addEventListener("submit", onFormSubmit);
